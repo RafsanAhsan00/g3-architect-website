@@ -73,7 +73,7 @@ nav a {
 /* mains style */
 main {
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 60px auto;
 }
 
 /* teams style */
@@ -123,8 +123,15 @@ padding-bottom: 30px;
         padding: 20px;
     }
 
-    nav {
+    nav, .teams-container {
         flex-direction: column;
+    }
+    .teams-img-container{
+       grid-template-columns: 1fr;
+    }
+    .teams-content{
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 
@@ -134,7 +141,12 @@ padding-bottom: 30px;
         padding: 20px;
     }
 
-    nav {
+    nav, .teams-container {
         flex-direction: column;
+    }
+   
+    
+    .teams-content{
+        padding-bottom: 20px;
     }
 }
