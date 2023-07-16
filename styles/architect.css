@@ -121,10 +121,62 @@ main {
 
 }
 
+/* feature section style */
+.features {
+    margin-top: 130px;
+    display: flex;
+    gap: 140px;
+}
+.upper-text{
+    margin-bottom: 30px;
+}
+
+.feature-title{
+color:#131313;
+font-size: 2.6rem;
+font-weight: 700;
+border-left: 4px solid orange;
+padding-left: 20px;
+
+}
+
+.feature-content .card {
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+
+.featur-description {
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.box-title {
+    color:#131313;
+    font-size: 1.3rem;
+    font-weight: 600;
+     
+}
+.ten-years-badge{
+    border-radius: 8px;
+    background-color: #FF900E;
+    color: white;
+    width: 330px;
+    padding: 30px;
+    text-align: center;
+}
+.ten-years-badge h2{
+    font-size: 3.5rem;
+}
+
 /* facts style */
-.facts{
+.facts {
     padding: 130px 0px;
 }
+
 .facts-title {
     color: #131313;
     font-size: 2.8rem;
@@ -158,22 +210,38 @@ main {
 }
 
 .card-description {
-    color:#727272;   
+    color: #727272;
     font-size: 1.4rem;
     font-weight: 600;
 }
+
 /* sponsor style */
-.sponsor{
+.sponsor {
     text-align: center;
 }
-.sponsor-img{
+
+.sponsor-img {
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
     gap: 20px;
     align-items: center;
-   
 }
+
+.sponsor-title {
+    color: #131313;
+    font-size: 2.5rem;
+    font-weight: 700;
+
+}
+
+.sponsor-description {
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+
+}
+
 /* responsive media queries */
 /* for mobile */
 @media screen and (max-width:576px) {
@@ -195,11 +263,13 @@ main {
         padding-left: 20px;
         padding-right: 20px;
     }
-    .facts-card-container{
+
+    .facts-card-container {
         flex-direction: column;
         gap: 10px;
     }
-    .img-spon{
+
+    .img-spon {
         width: 165px;
     }
 }
@@ -220,5 +290,5 @@ main {
     .teams-content {
         padding-bottom: 20px;
     }
-    
+
 }
